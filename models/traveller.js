@@ -23,8 +23,14 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
 };
 
 Traveller.prototype.getUniqueModesOfTransport = function () {
-  
-};
+//   let uniques = [];
+//   const isNotUnique = function(item) {
+//     return uniques.includes(item);
+//   };
+//   this.journeys.forEach((journey) => {if(!isNotUnique(journey.transport)) { uniques.push(journey.transport) }}
+//   );
+//   return uniques;
+// };
 
 
 module.exports = Traveller;
